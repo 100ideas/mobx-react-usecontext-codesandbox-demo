@@ -1,0 +1,42 @@
+.App {
+  font-family: sans-serif;
+  /* text-align: center; */
+  margin: auto;
+  width: 90%;
+}
+
+.MakerSection {
+  margin: 2em 0;
+  padding: 2em 0;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  display: flex;
+  justify-content: space-between;
+}
+
+.FriendsMaker {
+  flex-shrink: 0;
+}
+
+.MatchMaker {
+  /* float:right; */
+  /* flex-basis: fit-content; */
+  flex-shrink: 0;
+}
+
+.FriendsList {
+  /* width: 90vw; */
+  /* margin: auto; */
+  display: flex;
+  flex-flow: row wrap;
+  margin-left: 50px;
+  margin-right: 20px;
+}
+
+.FriendsList p {
+  width: 100%;
+  margin-top: 0;
+}
+.FriendsList .json {
+  margin: 10px;
+}
