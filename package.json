@@ -2,8 +2,10 @@
   "name": "mobx-react-usecontext-provider-demo",
   "version": "1.0.0",
   "description": "https://mobx-react.netlify.com/recipes-inject",
-  "keywords": [],
+  "keywords": ["mobx", "mobx-react", "mobx-react-lite", "context", "provider", "hooks"],
   "main": "src/index.js",
+  "repository": "https://github.com/100ideas/mobx-react-usecontext-codesandbox-demo",
+  "license": "MIT",
   "dependencies": {
     "mobx": "5.9.4",
     "mobx-react-lite": "1.3.2",

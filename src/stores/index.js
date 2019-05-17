@@ -1,11 +1,13 @@
 import React from "react";
-import { friendStore } from "./createStore";
+import { friendStore, createStore } from "./createStore";
 
 // export const storeContext = React.createContext(friendStore) // works also
 export const storeContext = React.createContext(null);
 
 export const StoreProvider = ({ children }) => {
   const [store] = React.useState(friendStore);
+  // original example code - doesn't work
+  // const [store] = React.useState(createStore);
   return (
     <storeContext.Provider value={store}>{children}</storeContext.Provider>
   );
