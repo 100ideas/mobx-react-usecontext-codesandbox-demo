@@ -2,7 +2,7 @@
 
 this repo: https://github.com/100ideas/mobx-react-usecontext-codesandbox-demo
 
-https://codesandbox.io/s/mobxreact-usecontext-provider-demo-ls076
+codesandbox fork: https://codesandbox.io/s/github/100ideas/mobx-react-usecontext-codesandbox-demo
 
 based on code at https://mobx-react.netlify.com/recipes-inject
 
